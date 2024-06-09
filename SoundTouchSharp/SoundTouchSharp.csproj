@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>netstandard2.1</TargetFramework>
+		<Nullable>enable</Nullable>
+		<Version>1.0.2</Version>
+		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+		<Title>SoundTouch C# wrapper</Title>
+		<Authors>fallingrust</Authors>
+		<Company>fallingrust</Company>
+		<Description>SoundTouch C# wrapper: x86 and x64 support</Description>
+		<PackageProjectUrl>https://github.com/fallingrust/SoundTouchSharp</PackageProjectUrl>
+		<RepositoryUrl>https://github.com/fallingrust/SoundTouchSharp</RepositoryUrl>
+	</PropertyGroup>
+	<ItemGroup>
+		<None Include="runtimes\win-x64\native\*.dll" Pack="true" PackagePath="runtimes\win-x64\native" PackageCopyToOutput="true" />
+		<None Include="runtimes\win-x86\native\*.dll" Pack="true" PackagePath="runtimes\win-x86\native" PackageCopyToOutput="true" />
+	</ItemGroup>
+</Project>
