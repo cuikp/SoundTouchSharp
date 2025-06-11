@@ -16,6 +16,7 @@
 <img alt="MIT License" src="https://img.shields.io/github/license/fallingrust/SoundTouchSharp">
 </a>
 
-### 关于
+### cuip
 
-SoundTouch C# wrapper: x86 and x64 support
+Based on SoundTouchSharp by fallingrust.
+Modified for .NET 8 and macOS arm-64 support.
